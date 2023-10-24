@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Petbook</title>
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FDF7EB;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            object-fit: cover;
+        }
+
+        #menuTapBar{
+            width: 100%;
+            display: inline-block;
+            background-color: #F2B749; 
+            margin: 0; 
+            padding: 3%;
+            top: 0px;
+            text-align: center;
+        }
+
+        #menuTapBar .imgRounded{
+            width: 50px;
+            height: 50px;
+            margin: 0;
+            padding: 0;
+        }
+
+        #logo{
+            margin: 2%;
+            color: white;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 40px;
+        }
+
+        .menu{
+
+            margin: 1%;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 2%;
+        }
+
+        #profile{
+            text-align: end;
+            width: 100px;
+            height: 100px;
+        }
+
+        #story{
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            padding: 5%;
+        }
+
+        .imgRounded{
+            margin: 2%;
+            width:100px;
+            height:100px;
+            border-radius:150px;
+            object-fit: cover; 
+            box-shadow:  5px 5px 9px rgba(89, 77, 77, 0.2);
+            background-color: white;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .row{
+            margin: 2%;
+            display: flex;
+            padding: 5px;
+        }
+
+        .column{
+           flex: 25%; 
+           padding: 5px;
+        }
+
+        .column img{
+            margin-top: 5px;
+        }
+
+        .tag{
+            margin: 5%;
+            padding: 2%;
+            text-decoration: none;
+            color: #E37B58;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow:  5px 5px 9px rgba(89, 77, 77, 0.2);
+       }
+
+       #tags{
+            text-align: center;
+            margin: 10%;
+            padding: 2%;
+       }
+
+       h1{
+            color: #502A15;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 5%;
+       }
+
+       #footer{
+            width: 100%;
+            display: inline-block;
+            height: 300px;
+            background-color: #502A15; 
+            margin: 0; 
+            padding: 2%;
+            bottom: 0px;
+            text-align: center;
+       }
+
+    </style>
+</head>
+<body>
+<div>
+
+    <!-- Menu -->
+    <div id="menuTapBar" >
+        <a class="menu" href="index.html"><h1 id="logo">PETBOOK</h1></a>
+        <a class="menu" href="gallery.html">Gallery</a>
+        <a class="menu" href="#Upload">Upload</a>
+        <a class="menu" href="#Chat">Chat</a>
+        <a class="menu" href="profile.html">Profile</a>
+        <a class="menu" href="#Terms">Terms & Conditions</a>
+        <a class="menu" href="profile.html" id="profile">
+            <img src="img/posts/post36.jpg" alt="Meowmadness" class='imgRounded'></a>
+    </div>
+
+    <!--Tags-->   
+    <div id="tags">
+        <a class="tag" href="#tagHalloween"><b>HALLOWEEN</b></a>
+        <a class="tag" href="#tagCats"><b>CATS</b></a>
+        <a class="tag" href="#tagBirds"><b>BIRDS</b></a>
+        <a class="tag" href="#tagAll"><b>ALL POSTS</b></a>
+    </div> 
+
+<h1>ALL POSTS</h1>
+    <div class="row" id="tagAll">
+        <div class="column">
+            <img src="img/posts/post01.jpg" alt="Post 01">
+            <img src="img/posts/post02.jpg" alt="Post 02">
+            <img src="img/posts/post03.jpg" alt="Post 03">
+            <img src="img/posts/post04.jpg" alt="Post 04">
+            <img src="img/posts/post05.jpg" alt="Post 05">
+        </div>
+        <div class="column">
+            <img src="img/posts/post06.jpg" alt="Post 06">
+            <img src="img/posts/post07.jpg" alt="Post 07">
+            <img src="img/posts/post08.jpg" alt="Post 08">
+        </div>
+        <div class="column">
+            <img src="img/posts/post11.jpg" alt="Post 09">
+            <img src="img/posts/post12.jpg" alt="Post 10">
+            <img src="img/posts/post13.jpg" alt="Post 11">
+        </div>
+        <div class="column">
+            <img src="img/posts/post16.jpg" alt="Post 12">
+            <img src="img/posts/post17.jpg" alt="Post 13">
+            <img src="img/posts/post18.jpg" alt="Post 14">
+            <img src="img/posts/post19.jpg" alt="Post 15">
+            <img src="img/posts/post20.jpg" alt="Post 16">
+        </div>
+        <div class="column">
+            <img src="img/posts/post21.jpg" alt="Post 17">
+            <img src="img/posts/post22.jpg" alt="Post 18">
+            <img src="img/posts/post23.jpg" alt="Post 19">
+            <img src="img/posts/post25.jpg" alt="Post 20">
+        </div>
+    </div>
+     
+    
+
+    <!--Halloween--> 
+    <h1>HALLOWEEN</h1>
+    <div class="row" id="tagHalloween">
+        <div class="column">
+            <img src="img/posts/post03.jpg" alt="Post 21">
+            <img src="img/posts/post08.jpg" alt="Post 22">
+            <img src="img/posts/post10.jpg" alt="Post 23">
+        </div>
+        <div class="column">
+            <img src="img/posts/post19.jpg" alt="Post 24">
+            <img src="img/posts/post12.jpg" alt="Post 25">
+        </div>
+        <div class="column">
+            <img src="img/posts/post13.jpg" alt="Post 26">
+            <img src="img/posts/post18.jpg" alt="Post 27">
+        </div>
+    </div>
+
+        <!--Cats-->
+        <h1>CATS</h1> 
+    <div class="row" id="tagCats">
+        <div class="column">
+            <img src="img/posts/post04.jpg" alt="Post 28">
+            <img src="img/posts/post06.jpg" alt="Post 29">
+        </div>
+        <div class="column">
+            <img src="img/posts/post19.jpg" alt="Post 30">
+            <img src="img/posts/post20.jpg" alt="Post 31">
+            <img src="img/posts/post33.jpg" alt="Post 32">
+        </div>
+        <div class="column">
+            <img src="img/posts/post29.jpg" alt="Post 33">
+            <img src="img/posts/post30.jpg" alt="Post 34">
+        </div>
+    </div>
+
+     <!--Birds--> 
+     <h1>BIRDS</h1>
+     <div class="row" id="tagBirds">
+        <div class="column">
+            <img src="img/posts/post14.jpg" alt="Post 35">
+            <img src="img/posts/post15.jpg" alt="Post 36">
+        </div>
+        <div class="column">
+            <img src="img/posts/post21.jpg" alt="Post 37">
+            <img src="img/posts/post22.jpg" alt="Post 38">
+        </div>
+        <div class="column">
+            <img src="img/posts/post24.jpg" alt="Post 39">
+            <img src="img/posts/post26.jpg" alt="Post 40">
+        </div>
+    </div>
+
+    <!--Tags-->   
+    <div id="tags">
+        <a class="tag" href="#tagHalloween"><b>HALLOWEEN</b></a>
+        <a class="tag" href="#tagCats"><b>CATS</b></a>
+        <a class="tag" href="#tagBirds"><b>BIRDS</b></a>
+        <a class="tag" href="#tagAll"><b>ALL POSTS</b></a>
+    </div> 
+
+    <!--Footer-->
+    <footer>
+        <div id="footer" >
+            <a class="menu" href="#Home"><h1 id="logo">PETBOOK</h1></a>
+            <a class="menu" href="gallery.html">Gallery</a>
+            <a class="menu" href="#Upload">Upload</a>
+            <a class="menu" href="#Chat">Chat</a>
+            <a class="menu" href="profile.html">Profile</a>
+            <a class="menu" href="#Terms">Terms & Conditions</a>
+        </div>
+    </footer>
+    
+</div>
+</body>
+</html>

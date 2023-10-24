@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meowmadness - Profile</title>
+
+    <style>
+       body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FDF7EB;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            object-fit: cover;
+        }
+       
+        #logo{
+            margin: 2%;
+            color: white;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            margin-right: 5%;
+        }
+        #logoProfile{
+            margin: 2%;
+            color: white;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            margin-left: 5%;
+            margin-bottom: 90%;
+        }
+
+        .menu{
+            margin: 1%;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 2%;
+        }
+
+        #profile{
+            text-align: end;
+            width: 100px;
+            height: 100px;
+        } 
+
+        #story{
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            padding: 5%;
+        }
+
+        .imgRounded{
+            margin: 2%;
+            width:100px;
+            height:100px;
+            border-radius:150px;
+            object-fit: cover; 
+            box-shadow:  5px 5px 9px rgba(89, 77, 77, 0.2);
+            background-color: white;
+        }
+
+        .bio{
+            text-align: center;
+            text-decoration: none;
+            width: 250px;
+            background-color: #F2B749;
+            color: #ffffff;
+            vertical-align: top;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            padding: 10px;
+            padding-left: 2%;
+            padding-right: 2%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            box-shadow:  5px 5px 9px rgba(89, 77, 77, 0.2);
+        }
+
+        .bio img{
+            width: 200px;
+            height: 200px;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .row{
+            margin: 2%;
+            margin-left: 25%;
+            display: flex;
+            padding: 5px;
+        }
+
+        .column{
+           flex: 25%; 
+           padding: 5px;
+        }
+
+        .column img{
+            margin-top: 5px;
+        }
+
+        #footer{
+            width: 85%;
+            display: inline-block;
+            height: 200px;
+            background-color: #502A15; 
+            margin: 0; 
+            padding: 2%;
+            bottom: 0px;
+            text-align: center;
+            bottom: 0;
+            margin-left: 15%;
+       }
+
+    </style>
+</head>
+<body>
+<div>
+
+    <!-- Bio --> 
+    <div class="bio" style="margin:0px;">
+        <h3>MEOWMADNESS</h3>
+        <img src="img/posts/post36.jpg" alt="Meowmadness" class='imgRounded'></a>
+        <h3>Misty Petters</h3>
+        <h5>Valencia, Spain</h6>
+        <h5>Arashi Norwegian Forest </h6>
+        <p>Classy princess. Fearless, fierce, and fabulous!</p>
+        <p><b>Hobbies:</b> #sunning #eat #dream</p>
+        <br><br><br>
+        <a class="menu" href="index.html"><h1 id="logoProfile">PETBOOK</h1></a>
+    </div>
+
+     <!--Feed--> 
+     <div class="row" id="tagFeed">
+         <div class="column">
+             <img src="img/posts/post34.jpg" alt="Post 01">
+             <img src="img/posts/post37.jpg" alt="Post 02">
+             <img src="img/posts/post39.jpg" alt="Post 03">
+         </div>
+         <div class="column">
+             <img src="img/posts/post44.jpg" alt="Post 04">
+             <img src="img/posts/post36.jpg" alt="Post 05">
+             <img src="img/posts/post38.jpg" alt="Post 06">
+         </div>
+         <div class="column">
+             <img src="img/posts/post43.jpg" alt="Post 07">
+             <img src="img/posts/post35.jpg" alt="Post 08">
+             <img src="img/posts/post40.jpg" alt="Post 09">
+         </div>
+     </div>
+
+     <!--Footer-->
+     <footer>
+        <div id="footer" >
+            <a class="menu" href="#Home"><h1 id="logo">PETBOOK</h1></a>
+            <a class="menu" href="gallery.html">Gallery</a>
+            <a class="menu" href="#Upload">Upload</a>
+            <a class="menu" href="#Chat">Chat</a>
+            <a class="menu" href="profile.html">Profile</a>
+            <a class="menu" href="#Terms">Terms & Conditions</a>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
